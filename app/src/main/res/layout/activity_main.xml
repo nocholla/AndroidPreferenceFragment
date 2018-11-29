@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/tview_preference_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_twenty"
+        android:layout_marginLeft="@dimen/margin_eight"
+        android:layout_marginRight="@dimen/margin_eight"
+        android:layout_marginStart="@dimen/margin_eight"
+        android:layout_marginEnd="@dimen/margin_eight"
+        android:textColor="@color/text_black"
+        android:text="@string/preference_fragment"
+        android:textSize="@dimen/text_thirty"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:paddingLeft="@dimen/padding_five"
+        android:paddingRight="@dimen/padding_five"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Preference Text -->
+    <TextView
+        android:id="@+id/tview_preference_fragment_continue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_eight"
+        android:layout_marginRight="@dimen/margin_eight"
+        android:layout_marginStart="@dimen/margin_eight"
+        android:layout_marginEnd="@dimen/margin_eight"
+        android:textColor="@color/text_grey"
+        android:text="@string/lbl_preference_fragment_intro"
+        android:textSize="@dimen/text_sixteen"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:paddingLeft="@dimen/padding_five"
+        android:paddingRight="@dimen/padding_five"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tview_preference_fragment"/>
+
+
+    <!-- Preference Button -->
+    <Button
+        android:id="@+id/btn_preference_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_zero"
+        android:layout_marginLeft="@dimen/margin_zero"
+        android:layout_marginRight="@dimen/margin_zero"
+        android:background="@drawable/button_shaded_radius_zero"
+        android:text="@string/preference_fragment"
+        android:textSize="@dimen/text_fifteen"
+        android:textColor="@color/text_white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

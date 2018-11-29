@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Preference Fragment</string>
+
+    <string name="preference_fragment">Preference Fragment</string>
+    <string name="lbl_preference_fragment_intro">Click Preference Fragment button to continue</string>
+
+
+    <string name="splash_welcome">Welcome</string>
+    <string name="splash_username">Username</string>
+
+</resources>
