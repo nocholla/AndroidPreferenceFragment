@@ -1,4 +1,4 @@
-# EdurekaPreferenceFragment
+# Android Preference Fragment
 
 ![preference fragment 1](https://user-images.githubusercontent.com/801612/50357194-f1bc3a00-0509-11e9-8857-f20476a1c626.jpeg)
 
